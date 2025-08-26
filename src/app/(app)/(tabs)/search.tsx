@@ -18,7 +18,7 @@ export default function SearchScreen() {
   const [result, setResult] = useState<any>({});
   const [loading, setLoading] = useState<boolean>(false);
 
-  const BASE_URL = "http://localhost:3000";
+  const BASE_URL = "https://pk-mobile-backend.onrender.com";
 
   useEffect(() => {
     async function loadResourceField() {
